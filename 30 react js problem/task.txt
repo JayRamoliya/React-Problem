@@ -34,4 +34,23 @@ Task 5: implement a basic toggle switch component
         - using useState hooks to check box on off with onchange event
 
 
-23:00
+Task 6: create a component that fetches data from an api and display it
+        - create FetchesAPI.jsx file
+        - using useEffect hooks to fetches data and 
+        - store useState hooks inside 
+        - using map filter to show data
+
+
+Task 7: build a timer that counts down from a specified time
+        - create Timer.jsx file
+        - using useState hooks to store timer and
+        - using a useEffect hooks to drecement time -1 second with setTimeout
+
+
+Task 8: implement a simple to-do list application with add and remove functionality
+        - create ToDo.jsx file
+        - create a two useState hooks for store input and todo values
+        - create a two function
+
+
+41:26

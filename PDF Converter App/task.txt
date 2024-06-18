@@ -1,0 +1,14 @@
+Link: https://www.youtube.com/watch?v=V5AtMg0t-cc&list=PLqleLpAMfxGCiyLqCOYPNlrFXfOmO4TJs&index=6
+
+How to Build a Full Stack Word to PDF Converter App Using Node Js, Express Js & React Js 
+
+1. create a backend and frontend folder
+
+2. goto backend folder
+    - run: npm init
+           npm i express
+           npm i nodemon
+
+3. create a index.js file entry point
+
+4. package.json file
