@@ -59,5 +59,27 @@ Task 9: create a component that changes its background color when clicked
 
 
 Task 10: build a basic routing setup with react router
-         - 
-41:26
+         - Routing.jsx file
+         - install : npm i react-router-dom
+         - using BrowserRouter, Routes, Route, Link, components
+         - create a navbar like 
+
+
+Task 11: create a component that displays a random quote each time it is rendered
+          - Quote.jsx file
+          - using a useState hooks for store quote
+          - create a quotes array and generate a random number using math function with quotes length
+          - create a button to change quote
+
+
+Task 12: build a file uploader component that allows users to upload images
+          - FileUploader.jsx file
+          - using useState hooks for store file
+          - using a input type file and onchange event callback functions to get e.target.files[0]
+          - create a img using URL.createObjectURL
+
+
+Task 13: implement a basic authentication form with login and registration
+
+
+01:00:00

@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <Routing/>
-      <Background/>
+      {/* <Background/>
       <Timer/>
       <ToDo/>
       <HelloWorld/>
@@ -22,7 +22,7 @@ const App = () => {
       <FormInput/>
       <ListItems/>
       <ToggleSwitch/>
-      <FetchesAPI/>
+      <FetchesAPI/> */}
     </>
   )
 }
