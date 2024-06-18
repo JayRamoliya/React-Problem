@@ -1,0 +1,87 @@
+video 1: https://www.youtube.com/watch?v=4z9bvgTlxKw
+
+React Tutorial for Beginners in Hindi #1: Introduction to React v19 & Why Learn ReactJS in 2024
+
+Introduction to ReactJS
+History of ReactJS
+ReactJS library✅ or framework❌
+ReactJS all about Components
+Why ReactJS?
+React declarative
+How React works
+
+
+
+video 2: https://www.youtube.com/watch?v=hG-Rw-4xRw4
+
+#2: React Installation & Creating Our First Website with React JS v19 Tutorial in Hindi | 2024
+
+Creating React JS Project
+- dawnload nodejs
+- dawnload vscode
+
+Way of Creating ReactJS Project
+- custom
+- using create-react-app
+- vite
+- meta framework
+
+install bun package (but not use)
+- npm i -g bun
+
+use vite 
+- npm init vite@latest
+- npm install
+- npm run dev
+
+Important update for future viewers
+npm i react@rc
+npm i react-dom@rc
+
+
+
+video 3: https://www.youtube.com/watch?v=-V7Nl9OZH6c
+
+[Solved] React JS v19 Tutorial #2.1 👉 Fixing React Installation Issue & Bun, npm, and pnpm Setup
+
+install react with bun, npm, pnpm
+
+
+
+video 4: https://www.youtube.com/watch?v=qsohoU-8pIw
+
+React JS v19 Tutorial #3: What to Learn Before React & 5 Tips to Maximize Your React Course (2024)
+
+Prerequisite to Learn ReactJS
+
+
+
+video 5: https://www.youtube.com/watch?v=WSzOD8oFBvI
+
+React JS v19 Tutorial in Hindi #4: React Project Structure and Naming Conventions
+
+Project Structure
+- node_modules (library and dependencies)
+- public (static file)
+- src
+  - assets
+  - components
+  - containers
+  - hooks
+  - pages
+  - services
+  - utils
+  - App.js
+
+- index.html
+- package.json
+- package-lock.json
+- README.md
+- .gitignore
+
+Naming Conventions
+- PascalCase ( UpperCamelCase )
+- camelCase ( lowerCamelCase )
+- kebab-case ( lower-kebab-case )
+- snake_case ( lower-snake-case )
+
