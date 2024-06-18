@@ -49,8 +49,15 @@ Task 7: build a timer that counts down from a specified time
 
 Task 8: implement a simple to-do list application with add and remove functionality
         - create ToDo.jsx file
-        - create a two useState hooks for store input and todo values
-        - create a two function
+        - using a two useState hooks for store input and todo values
+        - using a two function
 
 
+Task 9: create a component that changes its background color when clicked
+        - Background.jsx file
+        - using a useState hooks for store color with onclick event
+
+
+Task 10: build a basic routing setup with react router
+         - 
 41:26
