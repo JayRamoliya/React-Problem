@@ -10,6 +10,7 @@ import ToDo from './ToDo'
 import ToggleSwitch from './ToggleSwitch'
 import Quote from './Quote'
 import FileUploader from './FileUploader'
+import Auth from './Auth'
 
 
 const Routing = () => {
@@ -48,6 +49,9 @@ const Routing = () => {
             <li>
               <Link to='/fileuploader'>File Uploader</Link>
             </li>
+            <li>
+              <Link to='/auth'>Auth</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
@@ -61,6 +65,7 @@ const Routing = () => {
           <Route path='/toggleswitch' element={<ToggleSwitch />}></Route>
           <Route path='/quote' element={<Quote />}></Route>
           <Route path='/fileuploader' element={<FileUploader />}></Route>
+          <Route path='/auth' element={<Auth />}></Route>
         </Routes>
       </BrowserRouter>
 
