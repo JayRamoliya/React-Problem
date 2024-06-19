@@ -11,6 +11,7 @@ import ToggleSwitch from './ToggleSwitch'
 import Quote from './Quote'
 import FileUploader from './FileUploader'
 import Auth from './Auth'
+import WeatherApp from './WeatherApp'
 
 
 const Routing = () => {
@@ -52,6 +53,9 @@ const Routing = () => {
             <li>
               <Link to='/auth'>Auth</Link>
             </li>
+            <li>
+              <Link to='/weather'>WeatherApp</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
@@ -66,6 +70,7 @@ const Routing = () => {
           <Route path='/quote' element={<Quote />}></Route>
           <Route path='/fileuploader' element={<FileUploader />}></Route>
           <Route path='/auth' element={<Auth />}></Route>
+          <Route path='/weather' element={<WeatherApp />}></Route>
         </Routes>
       </BrowserRouter>
 

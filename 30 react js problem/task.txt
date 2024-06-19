@@ -81,5 +81,13 @@ Task 12: build a file uploader component that allows users to upload images
 
 Task 13: implement a basic authentication form with login and registration
           - Auth.jsx file
+          - first create a 5 state using useState hooks for data store
+          - create a two function for handleauth and handlelogout
+          - using a conditional rendering for login and register form
+
+
+Task 14: Develop a weather app that fetches and display weather information based on a user's locations
+          - WeatherApp.jsx file
+
 
 01:00:00
