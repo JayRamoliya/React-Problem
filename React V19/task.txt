@@ -85,3 +85,44 @@ Naming Conventions
 - kebab-case ( lower-kebab-case )
 - snake_case ( lower-snake-case )
 
+
+
+video 6: https://www.youtube.com/watch?v=jsfpNMTKkkc
+
+React JS v19 Tutorial in Hindi #5: JSX (JavaScript XML) The Essential Building Block of React
+
+What is JSX?
+<></>
+</>
+
+
+
+video 7: https://www.youtube.com/watch?v=9VutINDUzV8
+
+React JS v19 Tutorial #6: Components in React | Hindi
+
+What is Components
+- Functional Components✅
+- Class Components❌
+
+create a NetflixCard.jsx
+
+
+
+video 8: https://www.youtube.com/watch?v=IhGflSc0wwc&list=PLwGdqUZWnOp1Rab71vx2zMF6qpwGDB2Z1&index=8
+
+#7: React Fragments: Remove unwanted Nodes & Speed Up Rendering | React v19 Tutorial in Hindi
+
+React Fragments
+<Fragment><Fragment/>
+<></>
+
+Array with keys
+
+
+
+video 9: https://www.youtube.com/watch?v=SfVq-ajzVS8&list=PLwGdqUZWnOp1Rab71vx2zMF6qpwGDB2Z1&index=9
+
+#8: Dynamic Values in JSX: Injecting JavaScript into HTML | React v19 Tutorial in Hindi
+
+{} inside write a js
