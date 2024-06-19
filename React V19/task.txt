@@ -126,3 +126,21 @@ video 9: https://www.youtube.com/watch?v=SfVq-ajzVS8&list=PLwGdqUZWnOp1Rab71vx2z
 #8: Dynamic Values in JSX: Injecting JavaScript into HTML | React v19 Tutorial in Hindi
 
 {} inside write a js
+
+
+
+video 10: https://www.youtube.com/watch?v=74nEOGolDhI
+
+#9: React Conditional rendering in JSX : React v19 Tutorial in Hindi
+
+{ con ? true : false }
+{ ope && ope }
+{ ope || ope }
+
+
+
+video 11: https://www.youtube.com/watch?v=5vEZw8vXmOQ&list=PLwGdqUZWnOp1Rab71vx2zMF6qpwGDB2Z1&index=11
+
+#10: Our First React Interview Question & Answer | React Tutorial in Hindi 2024
+
+- react dose not render false, null, undefiend, or NaN in the DOM, these Values when usedin jsx will result in nothing in display
