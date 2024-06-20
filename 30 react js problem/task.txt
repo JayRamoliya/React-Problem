@@ -88,6 +88,17 @@ Task 13: implement a basic authentication form with login and registration
 
 Task 14: Develop a weather app that fetches and display weather information based on a user's locations
           - WeatherApp.jsx file
+          - using two hooks to store city name and weather data
+          - using axios to get data and set
+          - create a input field for city name and button to get weather data
+          - using conditional rendering to display weather data
+          - using a API key from openweathermap.org
+          - using a async await function to get data
+          - using a try catch block to handle error ❌
+          - using a loading state to display loading message when data is fetching ❌
+          - using a error state to display error message when data is not fetching ❌
 
 
-01:00:00
+Task 15: build a search bar that filters a list of items based on user input
+
+01:27:13
