@@ -144,3 +144,31 @@ video 11: https://www.youtube.com/watch?v=5vEZw8vXmOQ&list=PLwGdqUZWnOp1Rab71vx2
 #10: Our First React Interview Question & Answer | React Tutorial in Hindi 2024
 
 - react dose not render false, null, undefiend, or NaN in the DOM, these Values when usedin jsx will result in nothing in display
+
+
+
+video 12: https://www.youtube.com/watch?v=YDFErrqsTZ0
+
+#11: React Import and Export Explained | React Tutorial in Hindi 2024
+
+export default
+ - export default NetfilxCard / import NetfilxCard from './components/NetfilxCard';
+
+export named 
+ - export const NetfilxCard = () => {} / import { NetfilxCard } from './components/NetfilxCard';
+ - a file can have multiple named export
+ - export const NetfilxCard = () => {}, export const Interview = () => {} / import { NetfilxCard, Interview } from './components/NetfilxCard';
+
+import default
+import named
+
+combined export and import 
+ - both are in one
+
+
+
+video 13: https://www.youtube.com/watch?v=MV6R7wOIFDw
+
+#12: Looping in JSX: Netflix Series Card Creation 🔥React Tutorial in Hindi
+
+we don't have for loops in jsx, so we have to use .map() method of Array
