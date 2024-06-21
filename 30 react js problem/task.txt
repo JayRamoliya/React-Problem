@@ -142,6 +142,20 @@ Task 17: build a color picker that allows users to select a color
         
 Task 18: implement a responsive navigation menu with a hamburger icon
           - NavigationMenu.jsx file
+          - using useState hooks for store isOpen
+          - using a button for hamburger icon and onclick event callback functions to toggle isOpen state
+          - using a conditional rendering to display navigation menu items when isOpen is true
+          - using a CSS to style navigation menu and hamburger icon
+          - using a media query to make navigation menu responsive
+
+
+Task 19: build a context provider that allows users to switch between light and dark themes, and use the context in different parts of the app to apply the selected theme.
+        - ThemeContext.js file
+        - create a ThemeContext using createContext
+        - create a ThemeProvider using createContext.Provider
+        - using useState hooks for store theme
+        - create a toggleTheme function to switch between light and dark themes
+        - using a Context.Consumer to subscribe to context changes in different parts of the app
 
 
 
