@@ -172,3 +172,22 @@ video 13: https://www.youtube.com/watch?v=MV6R7wOIFDw
 #12: Looping in JSX: Netflix Series Card Creation 🔥React Tutorial in Hindi
 
 we don't have for loops in jsx, so we have to use .map() method of Array
+
+
+
+video 14: https://www.youtube.com/watch?v=tjLXot9FsGE
+
+#13: Props in React JS - Making Netflix Cards Reusable🔥React Tutorial in Hindi
+
+- props are immutable
+- props are read-only
+- props are passed from parent to child component
+- props are used to customize the component
+- props are used to make the component reusable
+
+
+
+video 15: https://www.youtube.com/watch?v=te3YdkP2aCk
+
+#14: React Destructuring Props in JSX | React Tutorial in Hindi
+
