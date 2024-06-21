@@ -100,5 +100,50 @@ Task 14: Develop a weather app that fetches and display weather information base
 
 
 Task 15: build a search bar that filters a list of items based on user input
+          - SearchBar.jsx file
+          - create a one lists array to pass like props
+          - using useState hooks for store search value
+          - using a placeholder text in input field
+          - using a input field for search value and onchange event callback functions to get e.target.value
+          - create a filtered list using filter method and includes method
+          - using a key prop to avoid warning in react
+          - using a map method to display list items
+          - using a conditional rendering to display filtered list ❌
+          - using a CSS to style search bar and list items ❌
+          - using a autofocus attribute in input field ❌
+          - using a clear button to clear search value and input field ❌
 
-01:27:13
+
+Task 16: Develop a paginations component to navigate through a large list of items
+          - Pagination.jsx file
+          - create a one lists array to pass like props with also pass itemparpage
+          - using useState hooks for store currentPage
+          - create a indexoflastitem using currentPage * itemparpage
+          - create a indexoffirstitem using indexoflastitem - itemparpage
+          - create a currentItems using slice method
+          - create a pagenumber empty array
+          - using a for loop to create pagenumber array using math ceil and push
+          - using a map method to display currentItems
+          - using a map method to display pagenumber array
+          - using a conditional rendering to display currentItems ❌
+          - using a CSS to style pagination buttons ❌
+          - using a disabled attribute in pagination buttons ❌
+          - using a active class in pagination buttons ❌
+          - using a screen reader text in pagination buttons ❌
+          - using a keyboard navigation in pagination buttons ❌
+
+
+Task 17: build a color picker that allows users to select a color
+          - ColorPicker.jsx file
+          - using useState hooks for store selectedColor
+          - using a input color field for color pick value and onchange event callback functions to get e.target.value
+          - set in state and display
+
+        
+Task 18: implement a responsive navigation menu with a hamburger icon
+          - NavigationMenu.jsx file
+
+
+
+
+01:45:35

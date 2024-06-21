@@ -12,9 +12,23 @@ import Quote from './Quote'
 import FileUploader from './FileUploader'
 import Auth from './Auth'
 import WeatherApp from './WeatherApp'
+import SearchBar from './SearchBar'
+import Pagination from './Pagination'
+import ColorPicker from './ColorPicker'
 
 
 const Routing = () => {
+  const lists = ['jay',
+    'sneh',
+    'manav',
+    'prince',
+    'gopi',
+    'happy',
+    'darshali',
+    'niv',
+    'het',
+    'khushi',
+  ]
   return (
     <>
       <BrowserRouter>
@@ -56,6 +70,15 @@ const Routing = () => {
             <li>
               <Link to='/weather'>WeatherApp</Link>
             </li>
+            <li>
+              <Link to='/search'>SearchBar</Link>
+            </li>
+            <li>
+              <Link to='/pagi'>Pagination</Link>
+            </li>
+            <li>
+              <Link to='/colorpicker'>ColorPicker</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
@@ -71,6 +94,9 @@ const Routing = () => {
           <Route path='/fileuploader' element={<FileUploader />}></Route>
           <Route path='/auth' element={<Auth />}></Route>
           <Route path='/weather' element={<WeatherApp />}></Route>
+          <Route path='/search' element={<SearchBar items = {lists} />}></Route>
+          <Route path='/pagi' element={<Pagination items = {lists} itemparpage = {3}/>}></Route>
+          <Route path='/colorpicker' element={<ColorPicker />}></Route>
         </Routes>
       </BrowserRouter>
 
