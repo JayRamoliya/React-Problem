@@ -107,7 +107,7 @@ table th{
 }
 
 
-.action{
+.actions{
     display: flex;
     justify-content: center;
     gap: 6px;
@@ -137,7 +137,7 @@ table th{
         font-size: 14px;
     }
 
-    .action{
+    .actions{
         flex-wrap: wrap;
         gap: 2px;
     }

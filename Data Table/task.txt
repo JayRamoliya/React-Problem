@@ -9,7 +9,7 @@ P1: Build this INSANE data table in React JS (With CRUD, Search Filter & Paginat
     - create components folder
     - create DataTable.jsx file
     - write a html all part like html part
+    - write a css also 
+    
 
 
-
-25:00
