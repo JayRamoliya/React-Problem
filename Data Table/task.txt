@@ -1,0 +1,15 @@
+Link: https://www.youtube.com/watch?v=LEcCkGn1-3g
+
+Build 12 Unique & Amazing React Js projects (Full Course)
+
+
+P1: Build this INSANE data table in React JS (With CRUD, Search Filter & Pagination)
+    - clean all files
+    - import google fonts 'Playpen Sans'
+    - create components folder
+    - create DataTable.jsx file
+    - write a html all part like html part
+
+
+
+25:00
