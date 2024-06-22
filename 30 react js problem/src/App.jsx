@@ -1,28 +1,19 @@
 import React from 'react'
-import HelloWorld from './components/HelloWorld'
-import CounterApp from './components/CounterApp'
-import FormInput from './components/FormInput'
-import ListItems from './components/ListItems'
-import ToggleSwitch from './components/ToggleSwitch'
-import FetchesAPI from './components/FetchesAPI'
-import Timer from './components/Timer'
-import ToDo from './components/ToDo'
-import Background from './components/Background'
 import Routing from './components/Routing'
+import { ThemeProvider } from './context/ThemeContext'
+import ThemeContext from './components/ThemeContext'
+import ThemeContext2 from './components/ThemeContext2'
 
 const App = () => {
   return (
     <>
-      <Routing/>
-      {/* <Background/>
-      <Timer/>
-      <ToDo/>
-      <HelloWorld/>
-      <CounterApp/>
-      <FormInput/>
-      <ListItems/>
-      <ToggleSwitch/>
-      <FetchesAPI/> */}
+      <Routing />
+      <ThemeProvider>
+        <div className="themepro">
+          <ThemeContext />
+          <ThemeContext2 />
+        </div>
+      </ThemeProvider>
     </>
   )
 }

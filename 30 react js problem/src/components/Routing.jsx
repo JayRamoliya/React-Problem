@@ -85,9 +85,6 @@ const Routing = () => {
             <li>
               <Link to='/navmenu'>NavigationMenu</Link>
             </li>
-            <li>
-              <Link to='/themecontext'>ThemeContext</Link>
-            </li>
           </ul>
         </nav>
         <Routes>
@@ -107,10 +104,6 @@ const Routing = () => {
           <Route path='/pagi' element={<Pagination items={lists} itemparpage={3} />}></Route>
           <Route path='/colorpicker' element={<ColorPicker />}></Route>
           <Route path='/navmenu' element={<NavigationMenu />}></Route>
-          
-          <ThemeProvider>
-            <Route path='/themecontext' element={<ThemeContext />}></Route>
-          </ThemeProvider>
         </Routes>
       </BrowserRouter>
 
