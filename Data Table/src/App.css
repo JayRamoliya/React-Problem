@@ -128,6 +128,13 @@ table th{
 }
 
 
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
 @media only screen and (max-width: 600px) {
     tr th{
         min-width: unset;

@@ -9,7 +9,17 @@ const DataTable = () => {
     })
     const [data, setData] = useState([])
     const [editid, setEditId] = useState(false)
+    const [searchterm, setSearchTerm] = useState('')
+    const [currentpage, setCurrentPage] = useState(1)
+
     const outsideclick = useRef(false)
+    const itemsperpage = 1
+    const lastitem = currentpage * itemsperpage
+    const firstitem = lastitem - itemsperpage
+
+    const filterdata = data.filter((item) =>
+        item.name.toLowerCase().includes(searchterm.toLowerCase())
+    ).slice(firstitem, lastitem)
 
     useEffect(() => {
         if (!editid) return;
@@ -27,7 +37,7 @@ const DataTable = () => {
         }
         document.addEventListener('click', handelclickoutside)
         return () => {
-            document.removeEventListener('click',handelclickoutside)
+            document.removeEventListener('click', handelclickoutside)
         }
     }, [])
     const handleInputChange = (e) => {
@@ -55,6 +65,9 @@ const DataTable = () => {
     // console.log(data);
 
     const handleDelete = (id) => {
+        if (filterdata.length === 1 && currentpage !==1) {
+            setCurrentPage((prev) => prev - 1)
+        }
         const updatelist = data.filter((item) => item.id !== id)
         setData(updatelist)
     }
@@ -70,8 +83,15 @@ const DataTable = () => {
         )
         setData(updatelist)
     }
-    console.log(data);
+    // console.log(data);
 
+    const handelSearch = (e) => {
+        setSearchTerm(e.target.value)
+    }
+
+    const paginate = (pagenumber) => {
+    setCurrentPage(pagenumber);
+    }
     return (
         <div className='container'>
 
@@ -88,7 +108,7 @@ const DataTable = () => {
 
             <div className='search-table-container'>
 
-                <input type="text" value={""} placeholder='Search by name' onChange={() => { }} className='search-input' />
+                <input type="text" value={searchterm} placeholder='Search by name' onChange={handelSearch} className='search-input' />
 
                 <table ref={outsideclick}>
                     <thead>
@@ -101,7 +121,7 @@ const DataTable = () => {
                     </thead>
                     <tbody>
                         {
-                            data.map((item) => (
+                            filterdata.map((item) => (
                                 <tr key={item.id}>
                                     <td
                                         id={item.id}
@@ -131,7 +151,20 @@ const DataTable = () => {
                     </tbody>
                 </table>
 
-                <div className='paginations'></div>
+                <div className='pagination'>
+                    {Array.from({
+                        length: data.length / itemsperpage
+                    }, (_, index) => (
+                        <button 
+                        key={index + 1} 
+                        onClick={() => paginate(index + 1)}
+                        style={{
+                        backgroundColor:currentpage===index+1 && "lightgreen",
+                        }}>
+                            {index + 1}
+                        </button>
+                    ))}
+                </div>
             </div>
         </div>
     )
