@@ -18,6 +18,7 @@ import ColorPicker from './ColorPicker'
 import NavigationMenu from './NavigationMenu'
 import ThemeContext from './ThemeContext'
 import { ThemeProvider } from '../context/ThemeContext'
+import Cart from './Cart'
 
 
 const Routing = () => {

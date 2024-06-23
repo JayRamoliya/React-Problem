@@ -167,9 +167,23 @@ Task 19: build a context provider that allows users to switch between light and 
         - using a CSS to style theme
 
 
+Task 20: implement a shopping cart using context and a reducer, with features like adding, removing, and updating items in the cart
+          - Cart.jsx file (first)
+          - create a products array to store product with id and name
+          - show all product using map methods with onclick event
+
+          - CartContext.jsx file (second)
+          - create a CartContext using createContext
+          - create a CartProvider using CartContext.Provider
+          - using a value prop to pass cart state and dispatch function
+          - wrap the app with CartProvider
 
 
+          - using useReducer for store cart state and dispatch
+          - using a reducer function to handle actions (ADD_ITEM, REMOVE_ITEM, UPDATE_ITEM)
+          - using a initialState for cart state
 
 
+Task 21: create a simple counter application using useReducer to manage the state.
 
-01:45:35
+02:36:42
