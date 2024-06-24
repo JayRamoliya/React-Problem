@@ -178,12 +178,27 @@ Task 20: implement a shopping cart using context and a reducer, with features li
           - using a value prop to pass cart state and dispatch function
           - wrap the app with CartProvider
 
-
           - using useReducer for store cart state and dispatch
-          - using a reducer function to handle actions (ADD_ITEM, REMOVE_ITEM, UPDATE_ITEM)
+          - using a reducer function to handle actions (ADD_TO_CART, UPDATE_QUANTITY, REMOVE_FROM_CART)
           - using a initialState for cart state
 
 
 Task 21: create a simple counter application using useReducer to manage the state.
+          - CounterReducer.jsx file
+          - using useReducer for store count state and dispatch
+          - using a reducer function to handle actions (INCREMENT, DECREMENT, RESET)
+          - using a button for increment, decrement, and reset with onclick event
+          - using a initialState for count state ❌
+          
 
-02:36:42
+Task 22: create a simple to do list using useReducer to manage tasks
+          - TodoReducer.jsx file
+          - using useReducer for store tasks state and dispatch
+          - using a reducer function to handle actions (ADD_TASK, REMOVE_TASK, UPDATE_TASK)
+          - using a initialState for tasks state
+          - using a form to add task with onsubmit event
+          - using a list to show all tasks with map methods and onclick event for remove task
+          - using a conditional rendering to show task status (completed or not)
+
+
+02:57:42

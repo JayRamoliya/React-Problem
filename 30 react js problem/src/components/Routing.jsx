@@ -19,6 +19,8 @@ import NavigationMenu from './NavigationMenu'
 import ThemeContext from './ThemeContext'
 import { ThemeProvider } from '../context/ThemeContext'
 import Cart from './Cart'
+import CounterReducer from './CounterReducer'
+import TodoReducer from './TodoReducer'
 
 
 const Routing = () => {
@@ -86,6 +88,12 @@ const Routing = () => {
             <li>
               <Link to='/navmenu'>NavigationMenu</Link>
             </li>
+            <li>
+              <Link to='/counter'>Counter Reducer</Link>
+            </li>
+            <li>
+              <Link to='/todoreducer'>To Do Reducer</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
@@ -105,6 +113,8 @@ const Routing = () => {
           <Route path='/pagi' element={<Pagination items={lists} itemparpage={3} />}></Route>
           <Route path='/colorpicker' element={<ColorPicker />}></Route>
           <Route path='/navmenu' element={<NavigationMenu />}></Route>
+          <Route path='/counter' element={<CounterReducer />}></Route>
+          <Route path='/todoreducer' element={<TodoReducer />}></Route>
         </Routes>
       </BrowserRouter>
 
