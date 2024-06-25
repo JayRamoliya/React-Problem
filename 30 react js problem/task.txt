@@ -195,10 +195,33 @@ Task 22: create a simple to do list using useReducer to manage tasks
           - TodoReducer.jsx file
           - using useReducer for store tasks state and dispatch
           - using a reducer function to handle actions (ADD_TASK, REMOVE_TASK, UPDATE_TASK)
-          - using a initialState for tasks state
           - using a form to add task with onsubmit event
           - using a list to show all tasks with map methods and onclick event for remove task
-          - using a conditional rendering to show task status (completed or not)
+          - using a conditional rendering to show task status (completed or not) ❌
+          - using a initialState for tasks state ❌
 
 
-02:57:42
+Task 23: build a pagination component using useReducer to manage the currentPage and the number of item per page
+          - PaginationReducer.jsx file
+          - create a first data array using Array.from
+          - using useReducer for store currentPage and totalItem state and dispatch
+          - using useEffect to dispatch SET_TOTAL_ITEM with data.length
+          - using a reducer function to handle actions (SET_TOTAL_ITEM, SET_CURRENT_PAGE)
+          - using a button for next and previous page with onclick event
+          - using a select to change items per page with onchange event
+          - using a conditional rendering to show current page and items per page
+          - using a function to calculate the total number of pages and the current page items
+          - using a initialState for currentPage and itemsPerPage state ❌
+
+
+Task 24: create a user authentication system using useContext to manage user login and logout states
+          - UserContext.jsx file (first)
+          - AuthContext.jsx file (second)
+          - create a AuthContext using createContext
+          - create a AuthProvider using AuthContext.Provider
+          - using a value prop to pass user state and login and logout functions
+          - wrap the app with UserProvider
+
+
+
+03:19:07

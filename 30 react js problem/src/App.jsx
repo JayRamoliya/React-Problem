@@ -5,6 +5,8 @@ import ThemeContext from './components/ThemeContext'
 import ThemeContext2 from './components/ThemeContext2'
 import { CartProvider } from './context/CartContext'
 import Cart from './components/Cart'
+import { AuthProvider } from './context/AuthContext'
+import UserContext from './components/UserContext'
 
 const App = () => {
   return (
@@ -19,7 +21,11 @@ const App = () => {
 
       <CartProvider>
         <Cart/>
-      </CartProvider>      
+      </CartProvider>    
+
+      <AuthProvider>
+        <UserContext/>
+      </AuthProvider>  
     </>
   )
 }

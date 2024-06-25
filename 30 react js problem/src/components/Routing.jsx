@@ -21,6 +21,8 @@ import { ThemeProvider } from '../context/ThemeContext'
 import Cart from './Cart'
 import CounterReducer from './CounterReducer'
 import TodoReducer from './TodoReducer'
+import HelloWorld from './HelloWorld'
+import PaginationReducer from './PaginationReducer'
 
 
 const Routing = () => {
@@ -40,6 +42,9 @@ const Routing = () => {
       <BrowserRouter>
         <nav>
           <ul>
+            <li>
+              <Link to='/hello'>Hello World</Link>
+            </li>
             <li>
               <Link to='/background'>Background</Link>
             </li>
@@ -94,9 +99,13 @@ const Routing = () => {
             <li>
               <Link to='/todoreducer'>To Do Reducer</Link>
             </li>
+            <li>
+              <Link to='/pagireducer'>Pagination Reducer</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
+          <Route path='/hello' element={<HelloWorld />}></Route>
           <Route path='/background' element={<Background />}></Route>
           <Route path='/counterapp' element={<CounterApp />}></Route>
           <Route path='/fetchesapi' element={<FetchesAPI />}></Route>
@@ -115,6 +124,7 @@ const Routing = () => {
           <Route path='/navmenu' element={<NavigationMenu />}></Route>
           <Route path='/counter' element={<CounterReducer />}></Route>
           <Route path='/todoreducer' element={<TodoReducer />}></Route>
+          <Route path='/pagireducer' element={<PaginationReducer />}></Route>
         </Routes>
       </BrowserRouter>
 

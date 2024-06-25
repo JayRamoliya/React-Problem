@@ -1,19 +1,6 @@
 import React, { useReducer, useState } from 'react';
 import styled from 'styled-components';
 
-const taskreducer = (state, action) => {
-    switch (action.type) {
-        case 'ADD_TASK':
-            return [...state, { id: Date.now(), text: action.payload, completed: false }];
-        case 'REMOVE':
-            return state.filter((task) => task.id !== action.payload);
-        case 'TOGGLE_TASK':
-            return state.map((task) => task.id === action.payload ? { ...task, completed: !task.completed } : task);
-        default:
-            return state;
-    }
-};
-
 const Container = styled.div`
     text-align: center;
     padding: 20px;
@@ -77,6 +64,20 @@ const TaskText = styled.span`
     cursor: pointer;
     text-decoration: ${(props) => (props.completed ? 'line-through' : 'none')};
 `;
+
+const taskreducer = (state, action) => {
+    switch (action.type) {
+        case 'ADD_TASK':
+            return [...state, { id: Date.now(), text: action.payload, completed: false }];
+        case 'REMOVE':
+            return state.filter((task) => task.id !== action.payload);
+        case 'TOGGLE_TASK':
+            return state.map((task) => task.id === action.payload ? { ...task, completed: !task.completed } : task);
+        default:
+            return state;
+    }
+};
+
 
 const TodoReducer = () => {
     const [tasks, dispatch] = useReducer(taskreducer, []);
