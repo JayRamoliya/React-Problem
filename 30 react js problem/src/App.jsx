@@ -7,6 +7,8 @@ import { CartProvider } from './context/CartContext'
 import Cart from './components/Cart'
 import { AuthProvider } from './context/AuthContext'
 import UserContext from './components/UserContext'
+import LocalizationContext from './components/LocalizationContext'
+import { LocalizationProvider } from './context/LocalizationContext'
 
 const App = () => {
   return (
@@ -20,12 +22,16 @@ const App = () => {
       </ThemeProvider>
 
       <CartProvider>
-        <Cart/>
-      </CartProvider>    
+        <Cart />
+      </CartProvider>
 
       <AuthProvider>
-        <UserContext/>
-      </AuthProvider>  
+        <UserContext />
+      </AuthProvider>
+
+      <LocalizationProvider>
+        <LocalizationContext />
+      </LocalizationProvider>
     </>
   )
 }

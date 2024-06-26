@@ -232,6 +232,20 @@ Task 25: build a draggable component using useReducer to manage its position
           - using a initialState for position state 
 
 
+Task 26: create a localization system using useContext to provide translations for the entire app
+          - LocalizationContext.jsx file (first)
+          - create a two button with two onclick event on callback function
+          - LocalizationContext.jsx file (second)
+          - create a LocalizationContext using createContext
+          - create a LocalizationProvider using LocalizationContext.Provider
+          - using a value prop to pass translations object
+          - wrap the app with LocalizationProvider
 
 
-03:31:55
+Task 27: fetch data from multiple apis and display the combined data in your component
+          - combined.jsx file
+          - using a useEffect to fetch data from multiple apis
+          - using a function to handle the data
+          - using a conditional rendering to show the data
+
+03:45:55
