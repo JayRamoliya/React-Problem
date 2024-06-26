@@ -23,6 +23,7 @@ import CounterReducer from './CounterReducer'
 import TodoReducer from './TodoReducer'
 import HelloWorld from './HelloWorld'
 import PaginationReducer from './PaginationReducer'
+import Draggable from './Draggable'
 
 
 const Routing = () => {
@@ -102,6 +103,9 @@ const Routing = () => {
             <li>
               <Link to='/pagireducer'>Pagination Reducer</Link>
             </li>
+            <li>
+              <Link to='/draggable'>Draggable</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
@@ -125,6 +129,7 @@ const Routing = () => {
           <Route path='/counter' element={<CounterReducer />}></Route>
           <Route path='/todoreducer' element={<TodoReducer />}></Route>
           <Route path='/pagireducer' element={<PaginationReducer />}></Route>
+          <Route path='/draggable' element={<Draggable />}></Route>
         </Routes>
       </BrowserRouter>
 

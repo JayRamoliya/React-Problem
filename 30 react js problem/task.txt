@@ -223,5 +223,15 @@ Task 24: create a user authentication system using useContext to manage user log
           - wrap the app with UserProvider
 
 
+Task 25: build a draggable component using useReducer to manage its position
+          - Draggable.jsx file
+          - using useReducer for store position state and dispatch
+          - using a reducer function to handle actions (MOVE)
+          - using a function to calculate the new position
+          - using a function to handle the drag event
+          - using a initialState for position state 
 
-03:19:07
+
+
+
+03:31:55
