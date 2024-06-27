@@ -24,6 +24,22 @@ import TodoReducer from './TodoReducer'
 import HelloWorld from './HelloWorld'
 import PaginationReducer from './PaginationReducer'
 import Draggable from './Draggable'
+import CombinedDataFetch from './CombinedDataFetch'
+
+
+import styled from 'styled-components'
+
+const Nav = styled.nav`
+  background-color: red;
+`
+const UL = styled.ul`
+list-style: none;
+display: flex;
+justify-content: space-around;
+`
+const LI = styled.li`
+padding: 10px;
+`
 
 
 const Routing = () => {
@@ -41,50 +57,54 @@ const Routing = () => {
   return (
     <>
       <BrowserRouter>
-        <nav>
-          <ul>
-            <li>
+        <Nav>
+          <UL>
+            <LI>
               <Link to='/hello'>Hello World</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/background'>Background</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/counterapp'>Counter App</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/fetchesapi'>Fetche API</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/forminput'>Form Input</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/listitem'>List Items</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/timer'>Timer</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/todo'>To Do</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/toggleswitch'>Toggle Switch</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/quote'>Quote</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/fileuploader'>File Uploader</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/auth'>Auth</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/weather'>WeatherApp</Link>
-            </li>
-            <li>
+            </LI>
+            <LI>
               <Link to='/search'>SearchBar</Link>
-            </li>
+            </LI>
+          </UL>
+        </Nav>
+        <Nav>
+          <UL>
             <li>
               <Link to='/pagi'>Pagination</Link>
             </li>
@@ -106,8 +126,11 @@ const Routing = () => {
             <li>
               <Link to='/draggable'>Draggable</Link>
             </li>
-          </ul>
-        </nav>
+            <li>
+              <Link to='/combineddatafetch'>Combined DataFetch</Link>
+            </li>
+          </UL>
+        </Nav>
         <Routes>
           <Route path='/hello' element={<HelloWorld />}></Route>
           <Route path='/background' element={<Background />}></Route>
@@ -130,9 +153,9 @@ const Routing = () => {
           <Route path='/todoreducer' element={<TodoReducer />}></Route>
           <Route path='/pagireducer' element={<PaginationReducer />}></Route>
           <Route path='/draggable' element={<Draggable />}></Route>
+          <Route path='/combineddatafetch' element={<CombinedDataFetch />}></Route>
         </Routes>
       </BrowserRouter>
-
     </>
   )
 }

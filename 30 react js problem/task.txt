@@ -243,9 +243,23 @@ Task 26: create a localization system using useContext to provide translations f
 
 
 Task 27: fetch data from multiple apis and display the combined data in your component
-          - combined.jsx file
+          - CombinedDataFetch.jsx file
           - using a useEffect to fetch data from multiple apis
+          - using a two useState to store data
           - using a function to handle the data
-          - using a conditional rendering to show the data
+          - using a conditional rendering to show the data ❌
+
+
+Task 28: work with multiple states in a single state object the component should display the following information on the screen
+          1. a count value, initially set to 0.
+          2. a text value, initially set to "Hello World".
+          3. an "active" status, initially set to true.
+          - MultipleStates.jsx file
+          - using a useState to store the state object
+          - using a function to handle the state object
+          - using a conditional rendering to show the state object ❌
+          
+
+
 
 03:45:55
