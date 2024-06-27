@@ -260,6 +260,22 @@ Task 28: work with multiple states in a single state object the component should
           - using a conditional rendering to show the state object ❌
           
 
+Task 29: build a basic image gallery with useReducer to allow users to navigate between images and display the current image.
+          - ImageGallery.jsx file
+          - using a useReducer to store the state object
+          - using a reducer function to handle actions (NEXT, PREV)
+          - using a function to handle the state object
+          - using a function to handle the image gallery
+          - using a function to handle the image gallery
 
 
-03:45:55
+Task 30: create a different route pages component using useEffect to update the document title with the visited page whenevet it changes
+          - RoutePages.jsx file
+          - using a useEffect to update the document title with the visited page whenevet it changes
+          - using a useState to store the visited page
+          - using a function to handle the visited page
+
+
+DONE ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+

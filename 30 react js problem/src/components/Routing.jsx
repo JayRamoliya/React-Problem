@@ -28,6 +28,9 @@ import CombinedDataFetch from './CombinedDataFetch'
 
 
 import styled from 'styled-components'
+import MultipleStates from './MultipleStates'
+import ImageGallery from './ImageGallery'
+import RoutePages from './RoutePages'
 
 const Nav = styled.nav`
   background-color: red;
@@ -129,6 +132,12 @@ const Routing = () => {
             <li>
               <Link to='/combineddatafetch'>Combined DataFetch</Link>
             </li>
+            <LI>
+              <Link to='/multiplestates'>Multiple States</Link>
+            </LI>
+            <LI>
+              <Link to='/imagegallery'>Image Gallery</Link>
+            </LI>
           </UL>
         </Nav>
         <Routes>
@@ -156,6 +165,7 @@ const Routing = () => {
           <Route path='/combineddatafetch' element={<CombinedDataFetch />}></Route>
         </Routes>
       </BrowserRouter>
+      <RoutePages/>
     </>
   )
 }
