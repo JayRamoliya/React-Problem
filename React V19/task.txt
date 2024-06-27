@@ -191,3 +191,28 @@ video 15: https://www.youtube.com/watch?v=te3YdkP2aCk
 
 #14: React Destructuring Props in JSX | React Tutorial in Hindi
 
+
+
+video 16: https://www.youtube.com/watch?v=_xe20niOoGY
+
+#15: React JS Projects: How to Deal with Errors and Warnings - 3 Best Practices🔥
+
+to check hover to errors
+- check the console
+- check the browser dev tools
+- check the network tab
+- check the application tab
+- check the performance tab
+- check the memory tab
+- check the coverage tab
+- check the lighthouse tab
+- check the console tab
+- check the sources tab
+- check the timeline tab
+
+
+
+video 17: https://www.youtube.com/watch?v=J-ROo5Yo1m4
+
+#16: React Coding Challenge: Passing JSX as Props in React
+
