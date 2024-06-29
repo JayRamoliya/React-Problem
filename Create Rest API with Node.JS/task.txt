@@ -74,3 +74,19 @@ link: https://www.youtube.com/watch?v=vUW9DoWwMOE&list=PLwGdqUZWnOp1ve9jXCz9apbo
 
 Rest API #7: Create Schema & Model (Collection & Tables) using Mongoose & Express JS
 
+create a models
+create a productsmodels.js file in models folder
+
+create a schema
+create a model
+export
+
+
+
+link: https://www.youtube.com/watch?v=RxkgrRzLVhw&list=PLwGdqUZWnOp1ve9jXCz9apbouv-eAMi6E&index=8
+
+Rest API #8: Stored API data (JSON) in Database using Express & Mongoose ❤️‍🔥
+
+create a products.json
+create a productsDB.js file
+

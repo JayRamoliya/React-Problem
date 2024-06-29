@@ -1,0 +1,38 @@
+[
+  {
+    "name": "iphone",
+    "price": 154,
+    "feature": true,
+    "company": "apple"
+  },
+  {
+    "name": "samsung",
+    "price": 154,
+    "feature": true,
+    "company": "samsung"
+  },
+  {
+    "name": "nokia",
+    "price": 154,
+    "feature": true,
+    "company": "nokia"
+  },
+  {
+    "name": "redmi",
+    "price": 154,
+    "feature": true,
+    "company": "xiaomi"
+  },
+  {
+    "name": "oppo",
+    "price": 154,
+    "feature": true,
+    "company": "oppo"
+  },
+  {
+    "name": "vivo",
+    "price": 154,
+    "feature": true,
+    "company": "vivo"
+  }
+]
