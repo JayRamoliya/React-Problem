@@ -1,38 +1,34 @@
 [
   {
-    "name": "iphone",
-    "price": 154,
-    "feature": true,
-    "company": "apple"
+    "name": "IKEA Chair",
+    "price": 99.99,
+    "featured": true,
+    "rating": 4.8,
+    "company": "ikea",
+    "createdAt": "2022-01-01T12:00:00.000Z"
   },
   {
-    "name": "samsung",
-    "price": 154,
-    "feature": true,
-    "company": "samsung"
+    "name": "Liddy Sofa",
+    "price": 1299.99,
+    "featured": false,
+    "rating": 4.2,
+    "company": "liddy",
+    "createdAt": "2022-02-02T12:00:00.000Z"
   },
   {
-    "name": "nokia",
-    "price": 154,
-    "feature": true,
-    "company": "nokia"
+    "name": "Caressa Desk",
+    "price": 299.99,
+    "featured": true,
+    "rating": 4.9,
+    "company": "caressa",
+    "createdAt": "2022-03-03T12:00:00.000Z"
   },
   {
-    "name": "redmi",
-    "price": 154,
-    "feature": true,
-    "company": "xiaomi"
-  },
-  {
-    "name": "oppo",
-    "price": 154,
-    "feature": true,
-    "company": "oppo"
-  },
-  {
-    "name": "vivo",
-    "price": 154,
-    "feature": true,
-    "company": "vivo"
+    "name": "Marcos Table",
+    "price": 499.99,
+    "featured": false,
+    "rating": 4.1,
+    "company": "marcos",
+    "createdAt": "2022-04-04T12:00:00.000Z"
   }
 ]

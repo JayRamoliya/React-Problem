@@ -90,3 +90,14 @@ Rest API #8: Stored API data (JSON) in Database using Express & Mongoose ❤️�
 create a products.json
 create a productsDB.js file
 
+
+link: https://www.youtube.com/watch?v=0T6e8aJkG2c&list=PLwGdqUZWnOp1ve9jXCz9apbouv-eAMi6E&index=9
+
+Rest API #9: Read Data from Database using Express & Mongoose
+
+
+
+link: https://www.youtube.com/watch?v=rNNMR6ZNduk&list=PLwGdqUZWnOp1ve9jXCz9apbouv-eAMi6E&index=10
+
+
+Rest API #10: Add Filtration & Searching Functionality with Query Props
