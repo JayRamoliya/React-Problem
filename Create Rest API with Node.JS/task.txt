@@ -101,3 +101,9 @@ link: https://www.youtube.com/watch?v=rNNMR6ZNduk&list=PLwGdqUZWnOp1ve9jXCz9apbo
 
 
 Rest API #10: Add Filtration & Searching Functionality with Query Props
+
+
+link: https://www.youtube.com/watch?v=FoPfRkDf5xQ&list=PLwGdqUZWnOp1ve9jXCz9apbouv-eAMi6E&index=11
+
+
+Rest API #11: Add Company Filter in API & Make API Work Better
