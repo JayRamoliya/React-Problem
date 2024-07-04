@@ -1,0 +1,13 @@
+using vite js : npm create vite@latest
+                npm run dev
+
+npm i lodash react-icons socket.io-client
+
+
+clean all files
+
+
+create a components folder
+
+create a UserLogin.jsx page
+create a style.css file
