@@ -2,18 +2,20 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const FormInput = () => {
-    const [live, setLive] = useState('type something');
+    const [live, setLive] = useState('');
 
     return (
-        <FormContainer>
-            <StyledInput 
-                type="text" 
-                value={live} 
-                onChange={(e) => setLive(e.target.value)} 
-                placeholder="Type here..."
-            />
-            <OutputText>User Input: {live}</OutputText>
-        </FormContainer>
+        <Div>
+            <FormContainer>
+                <StyledInput
+                    type="text"
+                    value={live}
+                    onChange={(e) => setLive(e.target.value)}
+                    placeholder="Type here..."
+                />
+                <OutputText>User Input: {live}</OutputText>
+            </FormContainer>
+        </Div>
     );
 };
 
@@ -47,5 +49,12 @@ const OutputText = styled.p`
     font-size: 18px;
     color: #333;
 `;
+
+const Div = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+`
 
 export default FormInput;

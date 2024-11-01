@@ -2,28 +2,28 @@ Link: https://www.youtube.com/watch?v=UxW-R3nrieY
 
 30+ React JS Practice Problems || Master React JS 2024
 
-npm create vite@latest
-npm i
-npm run dev
+✅ npm create vite@latest
+✅ npm i
+✅ npm run dev
 
-clean a all file
+✅ clean a all file
 
-Task 1: create a simple "Hello World" React components
+✅ Task 1: create a simple "Hello World" React components
         - create a components folder 
         - inside a HelloWorld.jsx file and write a code
     
 
-Task 2: build a counter application with increment and drecement buttons
+✅ Task 2: build a counter application with increment and drecement buttons
         - create CounterApp.jsx file
         - using useState hooks to component re render with onclick event and change + - counter value
 
 
-Task 3: create a form that takes user input and display it in real time
+✅ Task 3: create a form that takes user input and display it in real time
         - create FormInput.jsx file
         - using useState hooks to live user input show with onchange event and e.target.value 
 
 
-Task 4: build a list component to display a list items
+✅ Task 4: build a list component to display a list items
         - create ListItems.jsx file
         - create a items array
         - using map function to return item

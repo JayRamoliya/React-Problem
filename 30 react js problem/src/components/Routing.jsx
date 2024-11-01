@@ -33,15 +33,16 @@ import ImageGallery from './ImageGallery'
 import RoutePages from './RoutePages'
 
 const Nav = styled.nav`
-  background-color: red;
+  background-color: black;
 `
+
 const UL = styled.ul`
-list-style: none;
-display: flex;
-justify-content: space-around;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 `
 const LI = styled.li`
-padding: 10px;
+  padding: 10px;
 `
 
 
@@ -165,7 +166,7 @@ const Routing = () => {
           <Route path='/combineddatafetch' element={<CombinedDataFetch />}></Route>
         </Routes>
       </BrowserRouter>
-      <RoutePages/>
+      <RoutePages />
     </>
   )
 }

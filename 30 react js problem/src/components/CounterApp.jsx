@@ -6,9 +6,11 @@ const CounterApp = () => {
 
     return (
         <>
-            <Button onClick={() => setCount(count - 1)}>-</Button>
-            <CountDisplay>{count}</CountDisplay>
-            <Button onClick={() => setCount(count + 1)}>+</Button>
+            <Div>
+                <Button onClick={() => setCount(count - 1)}>-</Button>
+                <CountDisplay>{count}</CountDisplay>
+                <Button onClick={() => setCount(count + 1)}>+</Button>
+            </Div>
         </>
     );
 };
@@ -32,4 +34,10 @@ const CountDisplay = styled.span`
     margin: 0 15px;
 `;
 
+const Div = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+`
 export default CounterApp;
